@@ -1,0 +1,69 @@
+#container{
+    margin-top: 2vh;
+    width: 80%;
+   height: max-content;
+   margin-left: 7%;
+}
+#frame{
+    
+    width: 80%;
+    height: 70vh;
+    font-size: large;
+}
+#title{
+    font-family: "Roboto","Arial",sans-serif;
+    font-size: 1.4rem;
+    
+    font-weight: 500;
+    margin-left: 1vh;
+    overflow: hidden;
+    display: block;
+    -webkit-line-clamp: 2;
+    display: box;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    white-space: normal;
+}
+
+button{
+    background-color: red;
+    border-radius: 2px;
+    padding: 0.7vh 1vw;
+    margin-left: 1vh;
+    border: none;
+    color: aliceblue;
+    font-size: 0.7pc;
+    text-align: right;
+    cursor: pointer;
+}
+#channel{
+    font-family: "Roboto","Arial",sans-serif;
+    font-size: 1.5rem;
+    margin-left: 1vh;
+    font-weight: 500;
+    font-weight: 550;
+    overflow: hidden;
+    display: block;
+    -webkit-line-clamp: 2;
+    display: box;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    white-space: normal;
+}
+#description{
+    font-family: "Roboto","Arial",sans-serif;
+    font-size: 1rem;
+    margin-left: 1vh;
+    font-weight: 500;
+    
+    overflow: hidden;
+    display: block;
+    -webkit-line-clamp: 2;
+    display: box;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    white-space: normal;
+}

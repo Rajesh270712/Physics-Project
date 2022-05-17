@@ -1,0 +1,46 @@
+#top{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+    background-color: rgba(134, 131, 131, 0.298);
+}
+#top a{
+    text-decoration: none;
+    margin: 5px;
+    color: brown;
+    font-size: 20px;
+    
+}
+h1{
+    font-size: 35px;
+    color: cornflowerblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+h3{
+    text-align: center;
+    font-size: 25px;
+    color: rgb(56, 103, 190);
+}
+#top+div{
+   font-size: 17px;
+    padding: 3vh;
+}
+input,button{
+    margin-top: 7px ;
+    border-radius: 3px;
+    background-color: rgba(158, 151, 151, 0.298);
+}
+body{
+    background-color: rgba(158, 151, 151, 0.298);
+}
+
+#result,#result2,#result3{
+    background-color: rgba(115, 112, 112, 0.298);
+    padding: 2vh;
+    border-radius: 5px;
+    margin-top: 2vh;
+    width: fit-content;
+}
